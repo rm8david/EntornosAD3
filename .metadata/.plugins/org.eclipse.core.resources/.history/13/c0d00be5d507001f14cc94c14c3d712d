@@ -1,0 +1,16 @@
+package testing;
+
+import modelo.dao.Autor;
+import modelo.dao.Libro;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Autor tolkien = new Autor("Tokien","El señor de los anillos, El Hobbit, El Silmarilion","Ficción/Fantasia");
+		Libro laComunidadDelAnillo = new Libro(11991199L,"La comunidad del anillo",25.90,400,tolkien);
+		
+		System.out.println(laComunidadDelAnillo.toString());
+
+	}
+
+}

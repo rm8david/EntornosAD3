@@ -1,0 +1,10 @@
+package modelo.dao;
+
+public class Libro {
+
+	private long isbn;
+	private String titulo;
+	private double precio;
+	private int paginas;
+	private Autor autor;
+}

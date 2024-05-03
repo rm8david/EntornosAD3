@@ -1,0 +1,23 @@
+package testing;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		cargarMenu();
+
+	}
+	
+	public static void cargarMenu() {
+		System.out.println("MAQUINA DE BEBIDAS");
+		System.out.println("-----------------------");
+		System.out.println("1. Coca Cola--------1,30€");
+		System.out.println("2. Fanta Naranja----1,20€");
+		System.out.println("3. Fanta Limón------1,20€");
+		System.out.println("4. Agua-------------1,00€");
+		System.out.println("5. Apagar máquina");
+		System.out.println("-----------------------");
+		System.out.println("¿Que opción elige?");
+	}
+
+}

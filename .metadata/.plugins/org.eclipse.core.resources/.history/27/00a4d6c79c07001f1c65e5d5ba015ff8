@@ -1,0 +1,47 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		Scanner leer = new Scanner(System.in);
+		
+		
+		int suma=0, pares=0, impares=0, ceros=0;
+		System.out.println("Introduzca cualquier número, un negativo para salir");
+		int numero = leer.nextInt();
+
+		if(numero<0)
+			System.out.println("Número negativo. Saliendo...");
+
+		while (numero < 0) {
+			if(numero < 0) {
+				System.out.println("número negativo. Saliendo...");
+				break;
+			}
+			if(numero == 0) {
+				ceros++;
+				numero = leer.nextInt();
+			}
+				else 
+					if(numero%2==0) {
+				
+						pares++;
+						suma+=numero;
+						numero = leer.nextInt();
+				}
+					else {
+						impares++;
+						suma+=numero;
+						numero = leer.nextInt();
+						
+			}
+		}
+		
+		
+
+	}
+
+}
